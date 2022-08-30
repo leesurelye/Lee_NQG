@@ -52,8 +52,16 @@
   2. config_squad.py: 使用SQUAD数据集训练模型使用的配置文件
   3. evaluate.py: 评估模型性能代码
   4. inference.py: 模型推理代码，即模型在测试环境使用的代码
-  5. main.py: 训练模型或者验证模型的入口代码
-  6. 
+  5. main.py: 训练模型或者验证模型的入口
+  6. model.py: 模型架构代码
+  7. preprocess.py: 原始SQUAD英文数据集预处理代码
+  8. preprocess_drcd.py: DRCD中文数据集预处理代码
+  9. preprocess_squad.py: SQuAD数据集预处理代码
+  10. test.py: 模型功能测试代码，非核心代码，可以忽略
+  11. trainer.py: 训练模型使用的代码
+  12. userface.py: 使用模型的接口
+  13. utils.py: 训练，测试，验证模型使用的工具
+  14. visualize.py: 模型注意力机制热力图可视化代码。
 ## 7.模型部署
 ### 硬件配置
   1. 训练模型为12G的GPU
@@ -62,3 +70,6 @@
   1. 本项目使用的是conda环境，深度学习框架使用的是`pytorch`框架。
   2. 分词使用的是[Hanlp](https://github.com/hankcs/HanLP)，特别感谢Hanks将分词模型开源
   3. 词嵌入模型使用的是[Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors)
+## 8. 后续更新
+  1. 由于git不能上传超大文件，因此后续会将预处理后的数据集和模型放在云盘中。
+  2. 如果运行项目有问题，欢迎随时在`issue`说明。
