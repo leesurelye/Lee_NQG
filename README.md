@@ -48,6 +48,10 @@
 |+Ans. separate attention|39.20|26.02|19.01|14.90|20.97|37.49|
 |+DP annotation & ans. attention|45.00|30.32|22.10|16.21|20.31|43.11|
 ## 6. 项目文件夹说明
+  ### 文件夹
+    1. predict: 模型在测试集上的输出
+    2. qgeval: Question Generation evaluation, 问题生成模型的评估方法
+  ### 文件
   1. config.py: 使用DRCD数据集训练模型的配置文件
   2. config_squad.py: 使用SQUAD数据集训练模型使用的配置文件
   3. evaluate.py: 评估模型性能代码
