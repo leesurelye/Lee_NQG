@@ -25,10 +25,10 @@
   - 模型输出：马祖地区在哪一个气候平均较为稳定?
 
 # 2. Data Size 和 训练数据
-18478 - train 
-Vocab Size  45000
----
-trail_time = 12 BLEU_score: 0.085
+1. 训练集来源于[DRCD](https://arxiv.org/abs/1806.00920)
+2. 由于数据集原始文件是繁体字，为了训练简体中文，文本使用繁体转简体的API将原价转换为简体中文。
+3. 经过处理后的训练集大小`18478`条
+4. 词汇量大小设置为`45000`个，可以在config.py配置文件中修改词汇量大小
 
 |trail_time| gated_self_attention|local coverage mechanism|BlEU score|ROUGE score|Meteor score|
 |------|------|------|------|------|------|
