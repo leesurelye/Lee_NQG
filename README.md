@@ -73,7 +73,11 @@
 ### 项目使用框架说明
   1. 本项目使用的是conda环境，深度学习框架使用的是`pytorch`框架。
   2. 分词使用的是[Hanlp](https://github.com/hankcs/HanLP)，特别感谢Hanks将分词模型开源
-  3. 词嵌入模型使用的是[Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors)
+  3. 词嵌入模型使用的是[Chinese-Word-Vectors](https://github.com/Embedding/Chinese-Word-Vectors),非常感谢大佬提供的开源代码
 ## 8. 后续更新
   1. 由于git不能上传超大文件，因此后续会将预处理后的数据集和模型放在云盘中。
   2. 如果运行项目有问题，欢迎随时在`issue`说明。
+## 9.推荐相关参考资料
+  1. [transformer预训练模型](https://huggingface.co/models)
+  2. [pytorch官方网站](https://pytorch.org/)
+  3. [李宏毅机器学习视频](https://www.bilibili.com/video/BV1Wv411h7kN?spm_id_from=333.337.search-card.all.click)
